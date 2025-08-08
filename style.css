@@ -3,8 +3,10 @@ a {
     color: inherit;
 }
 
-ul{
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -13,22 +15,33 @@ body {
     justify-content: space-between;
 }
 
+img {
+    height: 100px;
+    width: 100px;
+}
+
 .topBanner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 1rem 1rem 0 1rem;
     background-color: #1F2937;
     color: #e5e7eb;
 }
 
+.topLogo {
+    height: 2rem;
+    width: auto;
+}
+
 .header {
     display: flex;
-    height: 50vh;
     flex-direction: column;
     background-color: #1F2937;
     color: white;
     justify-content: center;
+    align-items: center;
+    padding: 5rem 1rem;
 }
 
 .links {
@@ -38,14 +51,12 @@ body {
 
 .headerMain {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 0 4rem 4rem 4rem;
     gap: 2rem;
 }
 
 .headerImg {
-    height: 30vh;
+    width: auto;
 }
 
 .headerText p {
@@ -65,7 +76,24 @@ body {
 
 .mainBody {
     display: flex;
-    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainHolder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem 0;
+}
+
+.products {
+}
+
+.products img {
+    border: 3px solid #3882f6;
+    border-radius: 20%;
 }
 
 .quoteBody {
@@ -73,6 +101,7 @@ body {
 }
 
 .action{   
+    display: flex;
 }
 
 .actionBox{background-color: #3882f6;}
