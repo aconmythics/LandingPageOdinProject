@@ -13,12 +13,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Roboto, serif;
 }
 
-img {
+/* img {
     height: 100px;
     width: 100px;
-}
+} */
 
 .topBanner{
     display: flex;
@@ -38,7 +39,7 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    color: white;
+    color: #faf9fa;
     justify-content: center;
     align-items: center;
     padding: 5rem 1rem;
@@ -51,21 +52,27 @@ img {
 
 .headerMain {
     display: flex;
-    align-items: center;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .headerImg {
+    height: 15rem;
     width: auto;
 }
 
 .headerText p {
     padding-bottom: 0.5rem;
     color: #e5e7eb;
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 .headerText h1 {
     margin-bottom: -1rem;
+    color: #faf9fa;
+    font-weight: 900;
+    font-size: 2rem;
 }
 
 .headerSignUp {
@@ -78,6 +85,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem 0;
 }
 
 .mainHolder {
@@ -89,19 +97,61 @@ img {
 }
 
 .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .products img {
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
     border: 3px solid #3882f6;
     border-radius: 20%;
 }
 
 .quoteBody {
     background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.quoteAuthor {
+    font-weight: bold;
+    font-size: 1rem;
+    justify-self: right;
 }
 
 .action{   
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.actionBox{background-color: #3882f6;}
+.actionBox{
+}
+
+.signUpText{
+
+}
+
+.signUpText h3{
+    color: #faf9fa;
+}
+
+.signUpText p {
+    color: #e5e7eb;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
