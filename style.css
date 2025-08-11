@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: Roboto, serif;
+    margin: 0;
 }
 
 /* img {
@@ -132,26 +133,46 @@ body {
 
 .action{   
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background-color: #3882f6;
+    border-radius: 1rem;
+    margin: 5rem;
 }
 
 .actionBox{
-}
-
-.signUpText{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .signUpText h3{
     color: #faf9fa;
+    font-weight: 700;
 }
 
 .signUpText p {
     color: #e5e7eb;
+    font-weight: 200;
+}
+
+.signUpLink {
+    border: 2px solid #faf9fa;
+    border-radius: 0.5rem;
+    color: #faf9fa;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #1F2937;
     color: #e5e7eb;
+    padding: 2rem 0;
+    font-weight: 600;
+    font-size: 1rem;
 }
